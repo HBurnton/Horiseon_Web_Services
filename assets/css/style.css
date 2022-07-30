@@ -1,3 +1,5 @@
+/* General Styles */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,6 +9,12 @@
 body {
     background-color: #d9dcd6;
 }
+
+p {
+    font-size: 16px;
+}
+
+/* Header styles */
 
 header {
     padding: 20px;
@@ -41,6 +49,8 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* Link Styles */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -50,10 +60,7 @@ a:hover{
     text-decoration: underline;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Hero Banner Style */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,6 +68,14 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* Styles for main content */
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .float-left {
@@ -73,11 +88,25 @@ p {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
+.service {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
+
+.service img {
+    max-height: 200px;
+}
+
+.service h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Styles for the aside and contained content on right side of screen*/
 
 aside {
     margin-right: 20px;
@@ -106,23 +135,7 @@ aside {
     max-width: 150px;
 }
 
-.service {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.service img {
-    max-height: 200px;
-}
-
-.service h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/*Styles for footer */
 
 footer {
     padding: 30px;
